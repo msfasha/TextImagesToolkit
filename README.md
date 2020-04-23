@@ -1,1 +1,1 @@
-A Java toolkit to generate multi fonts Arabic text images
+A Java toolkit to generate multi fonts text images for any language including Arabic.
