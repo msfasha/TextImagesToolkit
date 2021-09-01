@@ -8,6 +8,11 @@ The dataset was used in the model presented at:
 
 https://github.com/msfasha/Arabic-Deep-Learning-OCR
 
+
+The toolkit receives a text file containing Arabic words as an input and generates a dataset that contains two files:
+- A binary file that includes images of all the words in the input file. A single binary file is generated for all the words, this arrangement was more effecient to easily transfer the dataset e.g. to google cloud or other remote locations.
+- A text file that contains the labels for the images in the binary file.
+
 Usage:
 The base Arabic words file was generated using Wikipdia dump.
 
