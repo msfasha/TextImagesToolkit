@@ -4,6 +4,10 @@ This toolkit was used to generated Arabic Fonts Dataset used in the research bel
 
 https://arxiv.org/abs/2009.01987
 
+The dataset was used in the model presented at:
+
+https://github.com/msfasha/Arabic-Deep-Learning-OCR
+
 Usage:
 The base Arabic words file was generated using Wikipdia dump.
 
