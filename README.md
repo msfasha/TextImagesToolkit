@@ -12,7 +12,7 @@ The dataset was used in the Deep Learning model presented at:
 
 https://github.com/msfasha/Arabic-Deep-Learning-OCR
 
-The toolkit receives a text file containing Arabic words as an input and generates images and labels dataset.
+The toolkit accepts a text file containing Arabic words as an input and generates images and labels dataset.
 Two types of datasets can be generated:
 1- A dataset with a single binary file that contains to the generated images in addition to a text file that contains the labels as will as the memory location for each label in the binary file.
 This arrangement was more effecient to easily transfer and iterate the dataset e.g. to google cloud or other remote locations.
