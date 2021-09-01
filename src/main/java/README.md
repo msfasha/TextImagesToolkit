@@ -1,3 +1,5 @@
+A Java toolkit to generate multi fonts text images for any language including Arabic.
+
 To generate new dataset:
 Make sure that you have the base file, use either wiki source or Auto segments to generate base_words.txt.
 Set the required number of samples in that file before running the generate code.
@@ -10,4 +12,5 @@ Set the image sizing method.
 Set the monochrome if needed.
 Knowing that augmentation and Kashida are only available in ResizeToFitFixedBoundary mode.
 Check font styles and size if required.
+
 
