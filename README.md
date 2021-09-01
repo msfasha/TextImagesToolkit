@@ -19,9 +19,10 @@ Samples of the generated dataset (binary format) can be found at:
 https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg?usp=sharing
 
 Usage:
-The initial Arabic words file was generated using Wikipedia dump. Any text file with Arabic words can be used to generated the required images dataset. Wikipedia was used to provide large numbers of words suitable for the OCR Deep Learning model.
+Basically, the Toolkit loops over the words in the base text file and converts each word into a (png) image according to the defined settings.
+While looping the words, the Toolkit also loops over the fonts that are included in the (fonts) folder and generate an image for each type of font included in the fonts folder.
 
-The Toolkit loops over the words in the text file and converts the words into images using the user defined settings.
+The initial Arabic words file was generated using Wikipedia dump. Any text file with Arabic words can be used to generated the required images dataset. Wikipedia was used to provide large numbers of words suitable for the OCR Deep Learning model.
 
 Any file with Arabic words can be used as a starter repository, this file can be further refined using (GenerateBaseFileFromWikiSource.java ) file.
 This file (GenerateBaseFileFromWikiSource.java) allows the user to process raw Arabic words to:
