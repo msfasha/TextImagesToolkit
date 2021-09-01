@@ -1,4 +1,8 @@
-A Java toolkit to generate multi fonts text images for any language including Arabic.
+A Java toolkit to convert words into text images.
+
+The generated dataset contains binary images for the words in addition to labels file.
+This dataset can be used for developing OCR and machine learning applications.
+The Toolkit can be used to generate dataset for any language, it also include settings that are adaptive to Arabic language.
 
 This toolkit was used to generated Arabic Fonts Dataset used in the research below:
 
